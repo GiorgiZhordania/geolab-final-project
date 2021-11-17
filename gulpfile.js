@@ -4,9 +4,9 @@ const sass = require('gulp-sass')(require('sass'))
 
 // Compile sass into CSS & auto-inject into browsers
 gulp.task('sass', function() {
-    return gulp.src("app/*.scss")
+    return gulp.src("*.scss")
         .pipe(sass())
-        .pipe(gulp.dest("app"))
+        .pipe(gulp.dest("."))
         .pipe(browserSync.stream());
 });
 
@@ -14,11 +14,11 @@ gulp.task('sass', function() {
 gulp.task('serve', gulp.series('sass', function() {
 
     browserSync.init({
-        server: "./app/"
+        server: "./"
     });
 
-    gulp.watch("app/*.scss", gulp.series('sass'));
-    gulp.watch("app/*.html").on('change', browserSync.reload);
+    gulp.watch("*.scss", gulp.series('sass'));
+    gulp.watch("*.html").on('change', browserSync.reload);
 }));
 
 gulp.task('default', gulp.series('serve'));
