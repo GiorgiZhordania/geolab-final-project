@@ -1,13 +1,17 @@
 var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
 const sass = require('gulp-sass')(require('sass'))
+const autoprefixer = require('gulp-autoprefixer');
 
 // Compile sass into CSS & auto-inject into browsers
 gulp.task('sass', function() {
     return gulp.src("*.scss")
         .pipe(sass())
+        
+        .pipe(browserSync.stream())
+        .pipe(autoprefixer({
+		}))
         .pipe(gulp.dest("."))
-        .pipe(browserSync.stream());
 });
 
 // Static Server + watching scss/html files
