@@ -201,7 +201,7 @@ a {
 }
 
 #footer {
-  background-color: #41413e;
+  background-color: #252B42;
   color: white;
   display: flex;
   justify-content: center;
@@ -222,6 +222,9 @@ a {
 }
 #footer .container nav .nav-col span, #footer .container nav .nav-col h3 {
   margin-bottom: 10px;
+}
+#footer .container nav .nav-col a {
+  color: red;
 }
 #footer .container img {
   margin-left: 10px;
