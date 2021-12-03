@@ -408,3 +408,8 @@ a {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+@media (max-width: 960px) {
+  #footer .container {
+    padding-left: 15px;
+  }
+}
