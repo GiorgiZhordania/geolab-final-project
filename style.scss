@@ -1,5 +1,5 @@
 * {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     line-height: 1.5;
 }
 
@@ -9,11 +9,10 @@ html {
 
 a {
     text-decoration: none;
-
 }
 
 .button {
-    background-color: #2091F9;
+    background-color: #2091f9;
     padding: 8px 12px;
     border-radius: 100px;
     color: white;
@@ -22,9 +21,9 @@ a {
     transition: all 0.3s;
 
     &:hover {
-        box-shadow: -1px 4px 20px -3px rgba(0,0,0,0.65);
-        -webkit-box-shadow: -1px 4px 20px -3px rgba(0,0,0,0.65);
-        -moz-box-shadow: -1px 4px 20px -3px rgba(0,0,0,0.65);
+        box-shadow: -1px 4px 20px -3px rgba(0, 0, 0, 0.65);
+        -webkit-box-shadow: -1px 4px 20px -3px rgba(0, 0, 0, 0.65);
+        -moz-box-shadow: -1px 4px 20px -3px rgba(0, 0, 0, 0.65);
     }
 }
 
@@ -54,23 +53,23 @@ a {
         max-width: 1200px;
         padding: 60px 40px;
         margin: 0 auto;
-    
+
         nav {
             position: relative;
-    
+
             a {
                 color: white;
                 margin-right: 20px;
             }
         }
-    
+        
         .logo {
             position: relative;
         }
-    
+
         .logos {
             position: relative;
-    
+
             img {
                 margin: 0 10px;
             }
@@ -127,7 +126,8 @@ a {
                 font-size: 18px;
             }
 
-            img, h4 {
+            img,
+            h4 {
                 margin-bottom: 10px;
             }
         }
@@ -139,9 +139,9 @@ a {
     max-width: 1200px;
     margin: 0 auto;
     height: 500px;
-    box-shadow: -1px 4px 20px -3px rgba(0,0,0,0.65);
-    -webkit-box-shadow: -1px 4px 20px -3px rgba(0,0,0,0.65);
-    -moz-box-shadow: -1px 4px 20px -3px rgba(0,0,0,0.65);
+    box-shadow: -1px 4px 20px -3px rgba(0, 0, 0, 0.65);
+    -webkit-box-shadow: -1px 4px 20px -3px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: -1px 4px 20px -3px rgba(0, 0, 0, 0.65);
     border-radius: 10px;
     background-image: url(./assets/worck.jpg);
     background-size: cover;
@@ -200,7 +200,7 @@ a {
             margin-bottom: 20px;
         }
     }
-    
+
     .logos {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -218,9 +218,9 @@ a {
             cursor: pointer;
 
             &:hover {
-                box-shadow: -1px 4px 20px -3px rgba(0,0,0,0.65);
-                -webkit-box-shadow: -1px 4px 20px -3px rgba(0,0,0,0.65);
-                -moz-box-shadow: -1px 4px 20px -3px rgba(0,0,0,0.65);
+                box-shadow: -1px 4px 20px -3px rgba(0, 0, 0, 0.65);
+                -webkit-box-shadow: -1px 4px 20px -3px rgba(0, 0, 0, 0.65);
+                -moz-box-shadow: -1px 4px 20px -3px rgba(0, 0, 0, 0.65);
             }
         }
     }
@@ -231,7 +231,7 @@ a {
 }
 
 #footer {
-    background-color: #252B42;
+    background-color: #252b42;
     color: white;
     display: flex;
     justify-content: center;
@@ -241,7 +241,6 @@ a {
         margin: 0 auto;
         padding: 80px 0;
         display: flex;
-        
 
         nav {
             display: flex;
@@ -250,12 +249,13 @@ a {
                 display: flex;
                 flex-direction: column;
                 margin-right: 100px;
-                
-                span, h3 {
+
+                span,
+                h3 {
                     margin-bottom: 10px;
                 }
                 a {
-                    color: red;
+                    color: rgb(255, 255, 255);
                 }
             }
         }
@@ -268,9 +268,9 @@ a {
 }
 
 .featuresefects:hover {
-    box-shadow: -1px 4px 20px -3px rgba(0,0,0,0.65);
-    -webkit-box-shadow: -1px 4px 20px -3px rgba(0,0,0,0.65);
-    -moz-box-shadow: -1px 4px 20px -3px rgba(0,0,0,0.65);
+    box-shadow: -1px 4px 20px -3px rgba(0, 0, 0, 0.65);
+    -webkit-box-shadow: -1px 4px 20px -3px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: -1px 4px 20px -3px rgba(0, 0, 0, 0.65);
 }
 
 .buttons {
@@ -282,9 +282,9 @@ a {
     transition: all 0.3s;
 
     &:hover {
-        box-shadow: -1px 4px 20px -3px rgba(0,0,0,0.65);
-        -webkit-box-shadow: -1px 4px 20px -3px rgba(0,0,0,0.65);
-        -moz-box-shadow: -1px 4px 20px -3px rgba(0,0,0,0.65);
+        box-shadow: -1px 4px 20px -3px rgba(0, 0, 0, 0.65);
+        -webkit-box-shadow: -1px 4px 20px -3px rgba(0, 0, 0, 0.65);
+        -moz-box-shadow: -1px 4px 20px -3px rgba(0, 0, 0, 0.65);
     }
 }
 
@@ -303,7 +303,7 @@ a {
     border: 1px solid #e7e7e7;
     border-right: 0;
 
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 15px;
     line-height: 1.1;
     color: #333;
@@ -329,14 +329,14 @@ a {
     border: 0;
     cursor: pointer;
 
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     line-height: 1.1;
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
 
-    transition: background .2s linear;
+    transition: background 0.2s linear;
 }
 
 .subscribe__btn:hover {
@@ -361,7 +361,7 @@ a {
     color: #fff;
     text-decoration: none;
 
-    transition: color .11s linear;
+    transition: color 0.11s linear;
 }
 
 .nav__link:after {
@@ -378,7 +378,7 @@ a {
     left: 0;
     z-index: 1;
 
-    transition: opacity .11s linear;
+    transition: opacity 0.11s linear;
 }
 
 .nav__link:hover {
@@ -393,4 +393,68 @@ a {
 .nav__link.active {
     color: #fce38a;
 }
+@media (max-width:1366px) {
+    #partners {
+        .logos {
+            grid-template-columns: repeat(2,1fr);
+            margin:0 20px;
+        }
+    }
 
+    .hero {
+        #header {
+            padding: 60px 0;
+            margin: 0 20px;
+        }
+        .navigation {
+            display: none;
+
+        }
+        .burger-icon {
+            display: block;
+        }
+        .logos {
+            display: none;
+        }
+    }
+    #free-trail {
+        flex-direction: column;
+        .content {
+            margin: 0 0 20px 0;
+            text-align: center;
+            padding-right: 0;
+        }
+
+    }
+    #footer {
+        .container {
+            flex-direction: column;
+        }
+        nav {
+            margin-bottom: 50px;
+        }
+    }
+}
+@media (min-width:1366px) {
+    .hero {
+        .burger-icon {
+            display: none;
+        }
+        
+    }
+}
+
+
+@media (max-width: 1024px) {
+    #features {
+        .features {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    #partners {
+        .logos {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}
