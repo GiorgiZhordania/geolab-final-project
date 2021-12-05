@@ -468,3 +468,24 @@ a {
         }
     }
 }
+
+@media (max-width:768px) {
+    #features {
+        .features {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    #partners {
+        .logos {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+    #footer {
+        .container {
+                padding-left: 15px;
+            
+            
+        }
+    }
+}
