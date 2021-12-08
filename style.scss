@@ -238,17 +238,22 @@ a {
 
     .container {
         max-width: 1200px;
+        width: 100%;
+        flex-wrap: wrap;
         margin: 0 auto;
         padding: 80px 0;
         display: flex;
+        justify-content: space-between;
 
         nav {
             display: flex;
+            flex-wrap: wrap;
 
             .nav-col {
                 display: flex;
                 flex-direction: column;
                 margin-right: 100px;
+                margin-bottom: 18px
 
                 span,
                 h3 {
@@ -397,7 +402,7 @@ a {
     #partners {
         .logos {
             grid-template-columns: repeat(2,1fr);
-            margin:0 20px;
+            margin:0 5px;
         }
     }
 
@@ -486,6 +491,26 @@ a {
                 padding-left: 15px;
             
             
+        }
+    }
+}
+
+@media (max-width:560px) {
+    #features {
+        .features {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    #partners {
+        .logos {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+    #footer {
+        .container {
+                padding-left: 15px;   
+                
         }
     }
 }
