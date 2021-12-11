@@ -135,7 +135,7 @@ a {
 }
 
 #video {
-    width: 100%;
+    width: 99%;
     max-width: 1200px;
     margin: 0 auto;
     height: 500px;
@@ -409,7 +409,6 @@ a {
     .hero {
         #header {
             padding: 60px 0;
-            margin-left: 3px;
         }
         .navigation {
             display: none;
@@ -417,6 +416,7 @@ a {
         }
         .burger-icon {
             display: block;
+            margin-left: 10px;
         }
         .logos {
             display: none;
@@ -428,6 +428,7 @@ a {
             margin: 0 0 20px 0;
             text-align: center;
             padding-right: 0;
+            width: 84%;
         }
 
     }
@@ -503,6 +504,22 @@ a {
             align-items: center;
         }
     }
+    
+    #free-trail {
+        img {
+            width: 115%;
+        }
+        
+        .content {
+        margin: 0 0 20px 0;
+        text-align: center;
+        padding-right: 0;
+        width: 73%;
+        }
+        
+
+    }
+
     #partners {
         .logos {
             grid-template-columns: repeat(1, 1fr);
@@ -515,7 +532,18 @@ a {
         }
     }
 }
-@media (max-width:376px) {
+@media (max-width:415px) {
+    #free-trail {
+        .content {
+            margin: 0 0 20px 0;
+            text-align: center;
+            padding-right: 0;
+            width: 125%;
+        }
+    }
+}
+
+@media (max-width:377px) {
     .hero {
         .content {
             h1 {
@@ -523,6 +551,14 @@ a {
                 font-weight:bold;
                 margin-bottom:20px;
             }
+        }
+    }
+    #free-trail {
+        .content {
+            margin: 0 0 20px 0;
+            text-align: center;
+            padding-right: 0;
+            width: 140%;
         }
     }
 }
@@ -534,6 +570,14 @@ a {
                 font-weight:bold;
                 margin-bottom:20px;
             }
+        }
+    }
+    #free-trail {
+        .content {
+            margin: 0 0 20px 0;
+            text-align: center;
+            padding-right: 0;
+            width: 150%;
         }
     }
 }
@@ -548,8 +592,33 @@ a {
             }
         }
     }
+    #partners {
+        .logos {
+            div {
+                padding: 20px 9px;
+            }
+        }
+    }
 }
 @media (max-width:280px) {
+    #partners {
+        .logos {
+            div {
+                padding: 20px 9px;
+            }
+        }
+    }
+    #free-trail {
+        .content {
+            margin: 0 0 20px 0;
+            text-align: center;
+            padding-right: 0;
+            width: 175%;
+        }
+    }
+}
+
+@media (max-width:261px) {
     #partners {
         .logos {
             div {

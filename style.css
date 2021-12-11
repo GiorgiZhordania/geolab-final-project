@@ -118,7 +118,7 @@ a {
 }
 
 #video {
-  width: 100%;
+  width: 99%;
   max-width: 1200px;
   margin: 0 auto;
   height: 500px;
@@ -370,13 +370,13 @@ a {
 
   .hero #header {
     padding: 60px 0;
-    margin-left: 3px;
   }
   .hero .navigation {
     display: none;
   }
   .hero .burger-icon {
     display: block;
+    margin-left: 10px;
   }
   .hero .logos {
     display: none;
@@ -389,6 +389,7 @@ a {
     margin: 0 0 20px 0;
     text-align: center;
     padding-right: 0;
+    width: 84%;
   }
 
   #footer .container {
@@ -439,6 +440,16 @@ a {
     align-items: center;
   }
 
+  #free-trail img {
+    width: 115%;
+  }
+  #free-trail .content {
+    margin: 0 0 20px 0;
+    text-align: center;
+    padding-right: 0;
+    width: 73%;
+  }
+
   #partners .logos {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -447,11 +458,26 @@ a {
     padding-left: 15px;
   }
 }
-@media (max-width: 376px) {
+@media (max-width: 415px) {
+  #free-trail .content {
+    margin: 0 0 20px 0;
+    text-align: center;
+    padding-right: 0;
+    width: 125%;
+  }
+}
+@media (max-width: 377px) {
   .hero .content h1 {
     font-size: 34px;
     font-weight: bold;
     margin-bottom: 20px;
+  }
+
+  #free-trail .content {
+    margin: 0 0 20px 0;
+    text-align: center;
+    padding-right: 0;
+    width: 140%;
   }
 }
 @media (max-width: 361px) {
@@ -460,6 +486,13 @@ a {
     font-weight: bold;
     margin-bottom: 20px;
   }
+
+  #free-trail .content {
+    margin: 0 0 20px 0;
+    text-align: center;
+    padding-right: 0;
+    width: 150%;
+  }
 }
 @media (max-width: 321px) {
   .hero .content h1 {
@@ -467,8 +500,24 @@ a {
     font-weight: bold;
     margin-bottom: 20px;
   }
+
+  #partners .logos div {
+    padding: 20px 9px;
+  }
 }
 @media (max-width: 280px) {
+  #partners .logos div {
+    padding: 20px 9px;
+  }
+
+  #free-trail .content {
+    margin: 0 0 20px 0;
+    text-align: center;
+    padding-right: 0;
+    width: 175%;
+  }
+}
+@media (max-width: 261px) {
   #partners .logos div {
     padding: 20px 9px;
   }
